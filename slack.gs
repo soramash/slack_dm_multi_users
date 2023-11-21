@@ -3,7 +3,7 @@ function start(){
 }
 
 function sendDmToMultipleUsers(userIds, message) {
-  var token = getSlackToken(); // Slack OAuth Access Token をプロパティから取得
+  var token = getSlackToken(); // get Slack OAuth Access Token
 
   var url = 'https://slack.com/api/conversations.open';
   var payload = {
